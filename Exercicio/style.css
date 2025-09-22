@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff5f5; 
+    color: #2b0000;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffeaea;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(120, 0, 0, 0.15);
+  }
+  
+  
+  h1, h2 {
+    color: #b30000; 
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(180, 0, 0, 0.2);
+  }
+  
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+  
+  
+  .resultado {
+    background-color: #ffcccc;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-left: 6px solid #cc0000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(120, 0, 0, 0.1);
+  }
+
+  #boasVindas,
+  #idadeCubo,
+  #resultadoQuadrado,
+  #somaNumeros {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #800000;
+  }
+  
+
+  button {
+    background-color: #cc0000;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(120, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #a30000;
+  }
+  
+
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
+  
